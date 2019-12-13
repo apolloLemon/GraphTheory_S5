@@ -4,6 +4,7 @@ import math
 if(len(sys.argv)==1):
 	print("python nathan_graphgen.py housenumber outgoingdegforeachhouse >> filetosavein")
 	sys.exit()
+
 housenumber=int(sys.argv[1])
 outDeg=int(sys.argv[2])
 MAPsize = housenumber * 3
