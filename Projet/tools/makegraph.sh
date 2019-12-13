@@ -1,0 +1,1 @@
+python nathan_graphgen.py $1 $2 >> testgraph.gr
