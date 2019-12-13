@@ -37,4 +37,4 @@ for src, srclist in enumerate(Edge_sources):
 		dist = (math.sqrt(((dstx-srcx)**2)+((dsty-srcy)**2)))
 		#print("e {}({},{}) {}({},{}) dist={}".format(src,srcx,srcy,dst,dstx,dsty,dist))
 
-		print("e {} {} {:.2f}".format(src,dst,dist))
+		print("e {} {} {:.2f}".format(src+1,dst+1,dist))
